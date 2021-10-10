@@ -20,20 +20,68 @@ int main()
     //Repeat everything "forever" (until the power is removed or the chip is reset)
     while (true)
     {
-        //On for 500ms
+        //On for 150ms
         greenLED = 1;
         buzz.playTone("C");
-        wait_us(WAIT_TIME_MS * 1000);  //500ms
+        wait_us(WAIT_TIME_MS * 150);  
 
-
-        //Off for 500ms
+        //Pause for 150ms
         greenLED = 0;
-        buzz.playTone("C", Buzzer::HIGHER_OCTAVE);
-        wait_us(WAIT_TIME_MS * 1000);  //500ms
-
-        //Pause
         buzz.rest();
-        wait_us(WAIT_TIME_MS * 1000);
+        wait_us(WAIT_TIME_MS * 450);
+
+        //On for 150ms
+        greenLED = 1;
+        buzz.playTone("C");
+        wait_us(WAIT_TIME_MS * 150);  
+
+        //Pause for 150ms
+        greenLED = 0;
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 450);
+
+        //On for 150ms
+        greenLED = 1;
+        buzz.playTone("C");
+        wait_us(WAIT_TIME_MS * 150);  
+
+        //Pause for 150ms
+        greenLED = 0;
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 450);
+
+
+
+        //On for 450ms
+        greenLED = 1;
+        buzz.playTone("C");
+        wait_us(WAIT_TIME_MS * 450);  
+
+        //Pause for 150ms
+        greenLED = 0;
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 450);
+
+        //On for 450ms
+        greenLED = 1;
+        buzz.playTone("C");
+        wait_us(WAIT_TIME_MS * 450);  
+
+        //Pause for 150ms
+        greenLED = 0;
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 450);
+
+        //On for 450ms
+        greenLED = 1;
+        buzz.playTone("C");
+        wait_us(WAIT_TIME_MS * 450);  
+
+        //Pause for 150ms
+        greenLED = 0;
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 450);
 
     }
 }
+
