@@ -1,8 +1,8 @@
 #include "mbed.h"
 
-DigitalOut RedLED(PC_2,1);
-DigitalOut YellowLED(PC_3,1);
-DigitalOut GreenLED(PC_6,1);
+DigitalOut RedLED(PC_2);
+DigitalOut YellowLED(PC_3);
+DigitalOut GreenLED(PC_6);
 
 // main() runs in its own thread in the OS
 int main()
