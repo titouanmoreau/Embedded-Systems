@@ -49,7 +49,7 @@ int main()
         unsigned short micVal   = mic.read_u16(); 
 
         //Write to terminal
-        printf("--------------------------------\n");
+        printf("\n");
         printf("Potentiometer: %X\n", potVal);
         printf("Light Dependant Resistor: %X\n", lightVal);
         printf("Microphone: %X\n", micVal);   
